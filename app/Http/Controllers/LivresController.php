@@ -19,15 +19,18 @@ class LivresController extends Controller
         // $type=$var->input("accueil");
         // return "ça marche: ". $auteur. $livre. $pays. $type . $accueil;
         $titre=$var->input("titre");
-        $edition=$var->input("edition");
         $annee=$var->input("annee");
         $type=$var->input("type");
+        $auteur=$var->input("auteur");
+        $pays=$var->input("pays");
+
         
         livres::create([
             "titre"=>$titre,
-            "edition"=>$edition,
             "annee"=>$annee,
             "type"=>$type,
+            "auteur"=>$auteur,
+            "pays"=>$pays,
             
             ]);
     }

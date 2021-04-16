@@ -24,9 +24,10 @@
             @csrf
             Livres<br/><br/>
             <input type="text" name="titre" placeholder="titre"> <br/><br/>
-           <input type="text" name="edition" placeholder="edition"><br/><br/>
-           <input type="text" name="annee" placeholder="annee"><br/><br/>
+              <input type="text" name="annee" placeholder="annee"><br/><br/>
             <input type="text" name="type" placeholder="type"><br/><br/>
+            <input type="text" name="auteur" placeholder="auteur"><br/><br/>
+           <input type="text" name="pays" placeholder="pays"><br/><br/>
             <input type="submit" value="valider"><br/>
         </form>
     </div>
